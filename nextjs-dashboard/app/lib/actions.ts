@@ -4,7 +4,6 @@ import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import postgres from 'postgres';
 import { redirect } from 'next/navigation';
-import { error } from 'console';
 import { signIn } from '@/auth';
 import { AuthError } from 'next-auth';
 
